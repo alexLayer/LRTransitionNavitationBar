@@ -20,7 +20,6 @@
 		7A383F2D20FF0DA000513C9E /* LRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */; };
 		7A383F3620FF3BA900513C9E /* NormalFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */; };
 		7A383F3920FF3BC400513C9E /* NormalSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */; };
-		7A383F4120FF3D3A00513C9E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F4020FF3D3A00513C9E /* HomeViewController.m */; };
 		7A383F4520FF404D00513C9E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F4420FF404D00513C9E /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
@@ -67,8 +66,6 @@
 		7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalFirstViewController.m; sourceTree = "<group>"; };
 		7A383F3720FF3BC400513C9E /* NormalSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalSecondViewController.h; sourceTree = "<group>"; };
 		7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalSecondViewController.m; sourceTree = "<group>"; };
-		7A383F3F20FF3D3A00513C9E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		7A383F4020FF3D3A00513C9E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		7A383F4320FF404D00513C9E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		7A383F4420FF404D00513C9E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		80F1F31C8BD1CADA85A73D24 /* Pods-LRTransitionNavitationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTransitionNavitationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRTransitionNavitationBar/Pods-LRTransitionNavitationBar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 				7A383F2A20FF0DA000513C9E /* BaseVC */,
 				7A383EF520FF0D5E00513C9E /* AppDelegate.h */,
 				7A383EF620FF0D5E00513C9E /* AppDelegate.m */,
-				7A383F3F20FF3D3A00513C9E /* HomeViewController.h */,
-				7A383F4020FF3D3A00513C9E /* HomeViewController.m */,
 				7A383F3E20FF3D0600513C9E /* NormalStyle */,
 				7A383F3D20FF3CEC00513C9E /* WeiXinStyle */,
 				7A383EFB20FF0D5E00513C9E /* Main.storyboard */,
@@ -378,7 +373,6 @@
 				7A383EF720FF0D5E00513C9E /* AppDelegate.m in Sources */,
 				7A383F4520FF404D00513C9E /* UIImage+Color.m in Sources */,
 				7A383F3920FF3BC400513C9E /* NormalSecondViewController.m in Sources */,
-				7A383F4120FF3D3A00513C9E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
