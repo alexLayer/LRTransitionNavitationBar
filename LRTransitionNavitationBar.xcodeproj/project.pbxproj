@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE2143E49911E50F043A185 /* libPods-LRTransitionNavitationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2FBFF2841078C3B2363A89 /* libPods-LRTransitionNavitationBar.a */; };
+		7A383EF720FF0D5E00513C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383EF620FF0D5E00513C9E /* AppDelegate.m */; };
+		7A383EFA20FF0D5E00513C9E /* WeiXinFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383EF920FF0D5E00513C9E /* WeiXinFirstViewController.m */; };
+		7A383EFD20FF0D5E00513C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A383EFB20FF0D5E00513C9E /* Main.storyboard */; };
+		7A383EFF20FF0D6000513C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A383EFE20FF0D6000513C9E /* Assets.xcassets */; };
+		7A383F0220FF0D6000513C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A383F0020FF0D6000513C9E /* LaunchScreen.storyboard */; };
+		7A383F0520FF0D6000513C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F0420FF0D6000513C9E /* main.m */; };
+		7A383F0F20FF0D6000513C9E /* LRTransitionNavitationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F0E20FF0D6000513C9E /* LRTransitionNavitationBarTests.m */; };
+		7A383F1A20FF0D6100513C9E /* LRTransitionNavitationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F1920FF0D6100513C9E /* LRTransitionNavitationBarUITests.m */; };
+		7A383F2920FF0D9700513C9E /* WeiXinSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F2820FF0D9700513C9E /* WeiXinSecondViewController.m */; };
+		7A383F2D20FF0DA000513C9E /* LRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */; };
+		7A383F3620FF3BA900513C9E /* NormalFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */; };
+		7A383F3920FF3BC400513C9E /* NormalSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */; };
+		7A383F4120FF3D3A00513C9E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F4020FF3D3A00513C9E /* HomeViewController.m */; };
+		7A383F4520FF404D00513C9E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F4420FF404D00513C9E /* UIImage+Color.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A383F0B20FF0D6000513C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A383EEA20FF0D5E00513C9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A383EF120FF0D5E00513C9E;
+			remoteInfo = LRTransitionNavitationBar;
+		};
+		7A383F1620FF0D6000513C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A383EEA20FF0D5E00513C9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A383EF120FF0D5E00513C9E;
+			remoteInfo = LRTransitionNavitationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2FBFF2841078C3B2363A89 /* libPods-LRTransitionNavitationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LRTransitionNavitationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A383EF220FF0D5E00513C9E /* LRTransitionNavitationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRTransitionNavitationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A383EF520FF0D5E00513C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A383EF620FF0D5E00513C9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A383EF820FF0D5E00513C9E /* WeiXinFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiXinFirstViewController.h; sourceTree = "<group>"; };
+		7A383EF920FF0D5E00513C9E /* WeiXinFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiXinFirstViewController.m; sourceTree = "<group>"; };
+		7A383EFC20FF0D5E00513C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A383EFE20FF0D6000513C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A383F0120FF0D6000513C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A383F0320FF0D6000513C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A383F0420FF0D6000513C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A383F0A20FF0D6000513C9E /* LRTransitionNavitationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRTransitionNavitationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A383F0E20FF0D6000513C9E /* LRTransitionNavitationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTransitionNavitationBarTests.m; sourceTree = "<group>"; };
+		7A383F1020FF0D6000513C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A383F1520FF0D6000513C9E /* LRTransitionNavitationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRTransitionNavitationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A383F1920FF0D6100513C9E /* LRTransitionNavitationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTransitionNavitationBarUITests.m; sourceTree = "<group>"; };
+		7A383F1B20FF0D6100513C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A383F2720FF0D9600513C9E /* WeiXinSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiXinSecondViewController.h; sourceTree = "<group>"; };
+		7A383F2820FF0D9700513C9E /* WeiXinSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiXinSecondViewController.m; sourceTree = "<group>"; };
+		7A383F2B20FF0DA000513C9E /* LRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseViewController.h; sourceTree = "<group>"; };
+		7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseViewController.m; sourceTree = "<group>"; };
+		7A383F3420FF3BA900513C9E /* NormalFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalFirstViewController.h; sourceTree = "<group>"; };
+		7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalFirstViewController.m; sourceTree = "<group>"; };
+		7A383F3720FF3BC400513C9E /* NormalSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalSecondViewController.h; sourceTree = "<group>"; };
+		7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalSecondViewController.m; sourceTree = "<group>"; };
+		7A383F3F20FF3D3A00513C9E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7A383F4020FF3D3A00513C9E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7A383F4320FF404D00513C9E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		7A383F4420FF404D00513C9E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		80F1F31C8BD1CADA85A73D24 /* Pods-LRTransitionNavitationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTransitionNavitationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRTransitionNavitationBar/Pods-LRTransitionNavitationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		E0727A6FA289862F2573E22C /* Pods-LRTransitionNavitationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTransitionNavitationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LRTransitionNavitationBar/Pods-LRTransitionNavitationBar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A383EEF20FF0D5E00513C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE2143E49911E50F043A185 /* libPods-LRTransitionNavitationBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A383F0720FF0D6000513C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A383F1220FF0D6000513C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A383EE920FF0D5E00513C9E = {
+			isa = PBXGroup;
+			children = (
+				7A383EF420FF0D5E00513C9E /* LRTransitionNavitationBar */,
+				7A383F0D20FF0D6000513C9E /* LRTransitionNavitationBarTests */,
+				7A383F1820FF0D6100513C9E /* LRTransitionNavitationBarUITests */,
+				7A383EF320FF0D5E00513C9E /* Products */,
+				EC702FEF2D89F2A4C8485520 /* Pods */,
+				7EED77F899019CAC0AA5710C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A383EF320FF0D5E00513C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A383EF220FF0D5E00513C9E /* LRTransitionNavitationBar.app */,
+				7A383F0A20FF0D6000513C9E /* LRTransitionNavitationBarTests.xctest */,
+				7A383F1520FF0D6000513C9E /* LRTransitionNavitationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A383EF420FF0D5E00513C9E /* LRTransitionNavitationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A383F4220FF403F00513C9E /* Extenstion */,
+				7A383F2A20FF0DA000513C9E /* BaseVC */,
+				7A383EF520FF0D5E00513C9E /* AppDelegate.h */,
+				7A383EF620FF0D5E00513C9E /* AppDelegate.m */,
+				7A383F3F20FF3D3A00513C9E /* HomeViewController.h */,
+				7A383F4020FF3D3A00513C9E /* HomeViewController.m */,
+				7A383F3E20FF3D0600513C9E /* NormalStyle */,
+				7A383F3D20FF3CEC00513C9E /* WeiXinStyle */,
+				7A383EFB20FF0D5E00513C9E /* Main.storyboard */,
+				7A383EFE20FF0D6000513C9E /* Assets.xcassets */,
+				7A383F0020FF0D6000513C9E /* LaunchScreen.storyboard */,
+				7A383F0320FF0D6000513C9E /* Info.plist */,
+				7A383F0420FF0D6000513C9E /* main.m */,
+			);
+			path = LRTransitionNavitationBar;
+			sourceTree = "<group>";
+		};
+		7A383F0D20FF0D6000513C9E /* LRTransitionNavitationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A383F0E20FF0D6000513C9E /* LRTransitionNavitationBarTests.m */,
+				7A383F1020FF0D6000513C9E /* Info.plist */,
+			);
+			path = LRTransitionNavitationBarTests;
+			sourceTree = "<group>";
+		};
+		7A383F1820FF0D6100513C9E /* LRTransitionNavitationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A383F1920FF0D6100513C9E /* LRTransitionNavitationBarUITests.m */,
+				7A383F1B20FF0D6100513C9E /* Info.plist */,
+			);
+			path = LRTransitionNavitationBarUITests;
+			sourceTree = "<group>";
+		};
+		7A383F2A20FF0DA000513C9E /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				7A383F2B20FF0DA000513C9E /* LRBaseViewController.h */,
+				7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		7A383F3D20FF3CEC00513C9E /* WeiXinStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7A383EF820FF0D5E00513C9E /* WeiXinFirstViewController.h */,
+				7A383EF920FF0D5E00513C9E /* WeiXinFirstViewController.m */,
+				7A383F2720FF0D9600513C9E /* WeiXinSecondViewController.h */,
+				7A383F2820FF0D9700513C9E /* WeiXinSecondViewController.m */,
+			);
+			path = WeiXinStyle;
+			sourceTree = "<group>";
+		};
+		7A383F3E20FF3D0600513C9E /* NormalStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7A383F3420FF3BA900513C9E /* NormalFirstViewController.h */,
+				7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */,
+				7A383F3720FF3BC400513C9E /* NormalSecondViewController.h */,
+				7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */,
+			);
+			path = NormalStyle;
+			sourceTree = "<group>";
+		};
+		7A383F4220FF403F00513C9E /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				7A383F4320FF404D00513C9E /* UIImage+Color.h */,
+				7A383F4420FF404D00513C9E /* UIImage+Color.m */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		7EED77F899019CAC0AA5710C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2FBFF2841078C3B2363A89 /* libPods-LRTransitionNavitationBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC702FEF2D89F2A4C8485520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F1F31C8BD1CADA85A73D24 /* Pods-LRTransitionNavitationBar.debug.xcconfig */,
+				E0727A6FA289862F2573E22C /* Pods-LRTransitionNavitationBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A383EF120FF0D5E00513C9E /* LRTransitionNavitationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A383F1E20FF0D6100513C9E /* Build configuration list for PBXNativeTarget "LRTransitionNavitationBar" */;
+			buildPhases = (
+				750A42A18848D6562F298930 /* [CP] Check Pods Manifest.lock */,
+				7A383EEE20FF0D5E00513C9E /* Sources */,
+				7A383EEF20FF0D5E00513C9E /* Frameworks */,
+				7A383EF020FF0D5E00513C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRTransitionNavitationBar;
+			productName = LRTransitionNavitationBar;
+			productReference = 7A383EF220FF0D5E00513C9E /* LRTransitionNavitationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A383F0920FF0D6000513C9E /* LRTransitionNavitationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A383F2120FF0D6100513C9E /* Build configuration list for PBXNativeTarget "LRTransitionNavitationBarTests" */;
+			buildPhases = (
+				7A383F0620FF0D6000513C9E /* Sources */,
+				7A383F0720FF0D6000513C9E /* Frameworks */,
+				7A383F0820FF0D6000513C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A383F0C20FF0D6000513C9E /* PBXTargetDependency */,
+			);
+			name = LRTransitionNavitationBarTests;
+			productName = LRTransitionNavitationBarTests;
+			productReference = 7A383F0A20FF0D6000513C9E /* LRTransitionNavitationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A383F1420FF0D6000513C9E /* LRTransitionNavitationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A383F2420FF0D6100513C9E /* Build configuration list for PBXNativeTarget "LRTransitionNavitationBarUITests" */;
+			buildPhases = (
+				7A383F1120FF0D6000513C9E /* Sources */,
+				7A383F1220FF0D6000513C9E /* Frameworks */,
+				7A383F1320FF0D6000513C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A383F1720FF0D6000513C9E /* PBXTargetDependency */,
+			);
+			name = LRTransitionNavitationBarUITests;
+			productName = LRTransitionNavitationBarUITests;
+			productReference = 7A383F1520FF0D6000513C9E /* LRTransitionNavitationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A383EEA20FF0D5E00513C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Baidu;
+				TargetAttributes = {
+					7A383EF120FF0D5E00513C9E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					7A383F0920FF0D6000513C9E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 7A383EF120FF0D5E00513C9E;
+					};
+					7A383F1420FF0D6000513C9E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 7A383EF120FF0D5E00513C9E;
+					};
+				};
+			};
+			buildConfigurationList = 7A383EED20FF0D5E00513C9E /* Build configuration list for PBXProject "LRTransitionNavitationBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A383EE920FF0D5E00513C9E;
+			productRefGroup = 7A383EF320FF0D5E00513C9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A383EF120FF0D5E00513C9E /* LRTransitionNavitationBar */,
+				7A383F0920FF0D6000513C9E /* LRTransitionNavitationBarTests */,
+				7A383F1420FF0D6000513C9E /* LRTransitionNavitationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A383EF020FF0D5E00513C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A383F0220FF0D6000513C9E /* LaunchScreen.storyboard in Resources */,
+				7A383EFF20FF0D6000513C9E /* Assets.xcassets in Resources */,
+				7A383EFD20FF0D5E00513C9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A383F0820FF0D6000513C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A383F1320FF0D6000513C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		750A42A18848D6562F298930 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRTransitionNavitationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A383EEE20FF0D5E00513C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A383F2D20FF0DA000513C9E /* LRBaseViewController.m in Sources */,
+				7A383F2920FF0D9700513C9E /* WeiXinSecondViewController.m in Sources */,
+				7A383F3620FF3BA900513C9E /* NormalFirstViewController.m in Sources */,
+				7A383EFA20FF0D5E00513C9E /* WeiXinFirstViewController.m in Sources */,
+				7A383F0520FF0D6000513C9E /* main.m in Sources */,
+				7A383EF720FF0D5E00513C9E /* AppDelegate.m in Sources */,
+				7A383F4520FF404D00513C9E /* UIImage+Color.m in Sources */,
+				7A383F3920FF3BC400513C9E /* NormalSecondViewController.m in Sources */,
+				7A383F4120FF3D3A00513C9E /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A383F0620FF0D6000513C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A383F0F20FF0D6000513C9E /* LRTransitionNavitationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A383F1120FF0D6000513C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A383F1A20FF0D6100513C9E /* LRTransitionNavitationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A383F0C20FF0D6000513C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A383EF120FF0D5E00513C9E /* LRTransitionNavitationBar */;
+			targetProxy = 7A383F0B20FF0D6000513C9E /* PBXContainerItemProxy */;
+		};
+		7A383F1720FF0D6000513C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A383EF120FF0D5E00513C9E /* LRTransitionNavitationBar */;
+			targetProxy = 7A383F1620FF0D6000513C9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A383EFB20FF0D5E00513C9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A383EFC20FF0D5E00513C9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A383F0020FF0D6000513C9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A383F0120FF0D6000513C9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A383F1C20FF0D6100513C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A383F1D20FF0D6100513C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A383F1F20FF0D6100513C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F1F31C8BD1CADA85A73D24 /* Pods-LRTransitionNavitationBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LRTransitionNavitationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.LRTransitionNavitationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A383F2020FF0D6100513C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0727A6FA289862F2573E22C /* Pods-LRTransitionNavitationBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LRTransitionNavitationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.LRTransitionNavitationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A383F2220FF0D6100513C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LRTransitionNavitationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.LRTransitionNavitationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRTransitionNavitationBar.app/LRTransitionNavitationBar";
+			};
+			name = Debug;
+		};
+		7A383F2320FF0D6100513C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LRTransitionNavitationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.LRTransitionNavitationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRTransitionNavitationBar.app/LRTransitionNavitationBar";
+			};
+			name = Release;
+		};
+		7A383F2520FF0D6100513C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LRTransitionNavitationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.LRTransitionNavitationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LRTransitionNavitationBar;
+			};
+			name = Debug;
+		};
+		7A383F2620FF0D6100513C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LRTransitionNavitationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.LRTransitionNavitationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LRTransitionNavitationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A383EED20FF0D5E00513C9E /* Build configuration list for PBXProject "LRTransitionNavitationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A383F1C20FF0D6100513C9E /* Debug */,
+				7A383F1D20FF0D6100513C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A383F1E20FF0D6100513C9E /* Build configuration list for PBXNativeTarget "LRTransitionNavitationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A383F1F20FF0D6100513C9E /* Debug */,
+				7A383F2020FF0D6100513C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A383F2120FF0D6100513C9E /* Build configuration list for PBXNativeTarget "LRTransitionNavitationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A383F2220FF0D6100513C9E /* Debug */,
+				7A383F2320FF0D6100513C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A383F2420FF0D6100513C9E /* Build configuration list for PBXNativeTarget "LRTransitionNavitationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A383F2520FF0D6100513C9E /* Debug */,
+				7A383F2620FF0D6100513C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A383EEA20FF0D5E00513C9E /* Project object */;
+}
