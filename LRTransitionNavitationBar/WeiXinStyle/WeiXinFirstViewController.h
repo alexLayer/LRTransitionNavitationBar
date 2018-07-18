@@ -6,9 +6,9 @@
 //  Copyright © 2018年 Baidu. All rights reserved.
 //
 
-#import "LRBaseViewController.h"
+#import "LRBaseTransitionViewController.h"
 
-@interface WeiXinFirstViewController : LRBaseViewController
+@interface WeiXinFirstViewController : LRBaseTransitionViewController
 
 
 @end

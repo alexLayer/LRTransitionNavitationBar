@@ -17,10 +17,11 @@
 		7A383F0F20FF0D6000513C9E /* LRTransitionNavitationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F0E20FF0D6000513C9E /* LRTransitionNavitationBarTests.m */; };
 		7A383F1A20FF0D6100513C9E /* LRTransitionNavitationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F1920FF0D6100513C9E /* LRTransitionNavitationBarUITests.m */; };
 		7A383F2920FF0D9700513C9E /* WeiXinSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F2820FF0D9700513C9E /* WeiXinSecondViewController.m */; };
-		7A383F2D20FF0DA000513C9E /* LRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */; };
+		7A383F2D20FF0DA000513C9E /* LRBaseTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F2C20FF0DA000513C9E /* LRBaseTransitionViewController.m */; };
 		7A383F3620FF3BA900513C9E /* NormalFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */; };
 		7A383F3920FF3BC400513C9E /* NormalSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */; };
 		7A383F4520FF404D00513C9E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F4420FF404D00513C9E /* UIImage+Color.m */; };
+		7A383F4B20FF644A00513C9E /* LRBaseNoTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A383F4A20FF644A00513C9E /* LRBaseNoTransitionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +61,16 @@
 		7A383F1B20FF0D6100513C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A383F2720FF0D9600513C9E /* WeiXinSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiXinSecondViewController.h; sourceTree = "<group>"; };
 		7A383F2820FF0D9700513C9E /* WeiXinSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiXinSecondViewController.m; sourceTree = "<group>"; };
-		7A383F2B20FF0DA000513C9E /* LRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseViewController.h; sourceTree = "<group>"; };
-		7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseViewController.m; sourceTree = "<group>"; };
+		7A383F2B20FF0DA000513C9E /* LRBaseTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseTransitionViewController.h; sourceTree = "<group>"; };
+		7A383F2C20FF0DA000513C9E /* LRBaseTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseTransitionViewController.m; sourceTree = "<group>"; };
 		7A383F3420FF3BA900513C9E /* NormalFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalFirstViewController.h; sourceTree = "<group>"; };
 		7A383F3520FF3BA900513C9E /* NormalFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalFirstViewController.m; sourceTree = "<group>"; };
 		7A383F3720FF3BC400513C9E /* NormalSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalSecondViewController.h; sourceTree = "<group>"; };
 		7A383F3820FF3BC400513C9E /* NormalSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalSecondViewController.m; sourceTree = "<group>"; };
 		7A383F4320FF404D00513C9E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		7A383F4420FF404D00513C9E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		7A383F4920FF644900513C9E /* LRBaseNoTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseNoTransitionViewController.h; sourceTree = "<group>"; };
+		7A383F4A20FF644A00513C9E /* LRBaseNoTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseNoTransitionViewController.m; sourceTree = "<group>"; };
 		80F1F31C8BD1CADA85A73D24 /* Pods-LRTransitionNavitationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTransitionNavitationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRTransitionNavitationBar/Pods-LRTransitionNavitationBar.debug.xcconfig"; sourceTree = "<group>"; };
 		E0727A6FA289862F2573E22C /* Pods-LRTransitionNavitationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTransitionNavitationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LRTransitionNavitationBar/Pods-LRTransitionNavitationBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,8 +162,10 @@
 		7A383F2A20FF0DA000513C9E /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				7A383F2B20FF0DA000513C9E /* LRBaseViewController.h */,
-				7A383F2C20FF0DA000513C9E /* LRBaseViewController.m */,
+				7A383F2B20FF0DA000513C9E /* LRBaseTransitionViewController.h */,
+				7A383F2C20FF0DA000513C9E /* LRBaseTransitionViewController.m */,
+				7A383F4920FF644900513C9E /* LRBaseNoTransitionViewController.h */,
+				7A383F4A20FF644A00513C9E /* LRBaseNoTransitionViewController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -365,13 +370,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A383F2D20FF0DA000513C9E /* LRBaseViewController.m in Sources */,
+				7A383F2D20FF0DA000513C9E /* LRBaseTransitionViewController.m in Sources */,
 				7A383F2920FF0D9700513C9E /* WeiXinSecondViewController.m in Sources */,
 				7A383F3620FF3BA900513C9E /* NormalFirstViewController.m in Sources */,
 				7A383EFA20FF0D5E00513C9E /* WeiXinFirstViewController.m in Sources */,
 				7A383F0520FF0D6000513C9E /* main.m in Sources */,
 				7A383EF720FF0D5E00513C9E /* AppDelegate.m in Sources */,
 				7A383F4520FF404D00513C9E /* UIImage+Color.m in Sources */,
+				7A383F4B20FF644A00513C9E /* LRBaseNoTransitionViewController.m in Sources */,
 				7A383F3920FF3BC400513C9E /* NormalSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

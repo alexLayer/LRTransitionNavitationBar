@@ -6,8 +6,8 @@
 //  Copyright © 2018年 Baidu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LRBaseNoTransitionViewController.h"
 
-@interface NormalSecondViewController : UIViewController
+@interface NormalSecondViewController : LRBaseNoTransitionViewController
 
 @end

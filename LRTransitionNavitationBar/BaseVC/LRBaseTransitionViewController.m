@@ -1,21 +1,21 @@
 //
-//  LRBaseViewController.m
+//  LRBaseTransitionViewController.m
 //  NavBar
 //
 //  Created by alex on 2018/7/18.
 //  Copyright © 2018年 foxing. All rights reserved.
 //
 
-#import "LRBaseViewController.h"
+#import "LRBaseTransitionViewController.h"
 
 
-@interface LRBaseViewController ()
+@interface LRBaseTransitionViewController ()
 @property (nonatomic, strong) UIView *topBarView;
 @property (nonatomic, strong) UIView *navigationBarSeperateLine;    //导航栏底部的分割线
 
 @end
 
-@implementation LRBaseViewController
+@implementation LRBaseTransitionViewController
 
 - (void)loadView {
     [super loadView];

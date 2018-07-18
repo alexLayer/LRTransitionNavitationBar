@@ -8,57 +8,17 @@
 
 #import "NormalSecondViewController.h"
 
-#import <UINavigationController+FDFullscreenPopGesture.h>
-#import "UIImage+Color.h"
-
 @interface NormalSecondViewController ()
-@property (nonatomic, strong) UINavigationBar *customNavigationBar;
-@property (nonatomic, strong) UIView *statusBarView;
 
 @end
 
 @implementation NormalSecondViewController
 
-- (void)loadView {
-    [super loadView];
-    self.fd_prefersNavigationBarHidden = YES;
-    
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.topBarBackgroundColor = [UIColor redColor];
     [self setBackItems];
-    
 }
-
-- (void)viewWillLayoutSubviews {
-    [super viewWillLayoutSubviews];
-    self.statusBarView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20);
-    self.customNavigationBar.frame = CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 44);
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self.customNavigationBar pushNavigationItem:self.navigationItem animated:NO];
-    
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    // fix 页面第一次展示时, 返回按钮会显示一下然后消失
-    [self.customNavigationBar pushNavigationItem:self.navigationItem animated:NO];
-    
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    [self.customNavigationBar popNavigationItemAnimated:NO];
-    
-}
-
-
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    [self.customNavigationBar popNavigationItemAnimated:NO];
-    
-}
-
 
 - (void)setBackItems {
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -74,25 +34,5 @@
 - (void)back {
     [self.navigationController popViewControllerAnimated:YES];
 }
-
-- (UINavigationBar *)customNavigationBar {
-    if (!_customNavigationBar) {
-        _customNavigationBar = [[UINavigationBar alloc] init];
-        [_customNavigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor redColor]] forBarMetrics:UIBarMetricsDefault];
-        [self.view addSubview:self.customNavigationBar];
-        
-    }
-    return _customNavigationBar;
-}
-
-- (UIView *)statusBarView {
-    if (!_statusBarView) {
-        _statusBarView = [UIView new];
-        _statusBarView.backgroundColor = [UIColor redColor];
-        [self.view addSubview:_statusBarView];
-    }
-    return _statusBarView;
-}
-
 
 @end
